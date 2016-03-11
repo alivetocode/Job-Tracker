@@ -1,6 +1,16 @@
 
 
-<% @links.each do |link| %>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h1 class="panel-title">
+      <span class="glyphicon glyphicon-list-alt"></span>
+      &nbsp;MY JOBBITS
+    </h1>
+  </div>
+
+  <div class="panel-body">
+     <% @links.each do |link| %>
   <div class="link row clearfix">
     <h2>
       <%= link_to link.title, link %><br>
@@ -22,3 +32,16 @@
     </div>
   </div>
 <% end %>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
