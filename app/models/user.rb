@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  has_many :links 
+  has_many  :links 
   belongs_to :user
 
   validates :name, presence: true, length: { in: 1..30 }
