@@ -16,35 +16,46 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 body {
-	background: url(http://i2.cdn.turner.com/money/dam/assets/150113124130-job-market-entering-normal-1024x576.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
+
+  background         : url(http://i2.cdn.turner.com/money/dam/assets/150113124130-job-market-entering-normal-1024x576.jpg);
+  background-repeat  : no-repeat;
+  background-position: center;
 
 }
 
 .panel {
-  border: 0.05em solid lightgray;
+
+  border       : 0.05em solid lightgray;
   border-radius: 0.75em 0.75em;
-  margin-top: 2em;
-  padding: 1em;
+  margin-top   : 2em;
+  padding      : 1em;
  
 }
 
 .panel-right {
-  border: 0.05em solid lightgray;
+
+  border       : 0.05em solid lightgray;
   border-radius: 0.25em 0.25em;
-  margin-top: -0.2em;
-  padding: 0.35em;
-  font-size: 1em;
-  float: right;
+  margin-top   : -0.2em;
+  padding      : 0.35em;
+  font-size    : 1em;
+  float        : right;
+
 }
  
-  .panel-title a,
-  .panel-title a:active,
-  .panel-title a:visited {
-    text-decoration: none;
-  }
-  .panel-heading {
-  	height: 3.6em;
-  }
+.panel-title a,
+.panel-title a:active,
+.panel-title a:visited {
+
+  text-decoration: none;
+
+}
+
+.panel-heading {
+
+	height: 3.6em;
+
+}
+
