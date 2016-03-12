@@ -6,4 +6,7 @@ class User < ActiveRecord::Base
 
   has_many :links 
   belongs_to :user
+
+  validates :name, presence: true, length: { in: 1..30 }
+  validates :email, presence: true, uniqueness: true
 end
