@@ -19,10 +19,11 @@
 
 body {
 
-  background         : url(http://i2.cdn.turner.com/money/dam/assets/150113124130-job-market-entering-normal-1024x576.jpg);
-  background-repeat  : no-repeat;
-  background-position: center;
-
+  background         : url(https://s3-us-west-2.amazonaws.com/alivetocode/jobbit.png)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .panel {
