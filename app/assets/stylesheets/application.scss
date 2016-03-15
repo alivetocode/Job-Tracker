@@ -28,6 +28,17 @@ body {
 
 }
 
+.glyphicon-arrow-left {
+  color : #0084B4;
+}
+
+.well {
+  background: #DFEBF6;
+}
+
+.remove{
+  background: #C0D8EE;
+}
 .panel {
 
   border       : 0.05em solid lightgray;
@@ -60,5 +71,9 @@ body {
 
 	height: 3.6em;
 
+}
+
+.comment-form {
+  margin-top : 20px;
 }
 
