@@ -2,6 +2,11 @@
 <div class="col-md-9">
   <div class="panel panel-primary">
 
+
+    <div class="page-header">
+     <h1>New Link</h1>
+   </div>
+
     <%= form_for(@link) do |f| %>
     <% if @link.errors.any? %>
     <div id="error_explanation">
@@ -17,7 +22,7 @@
     <% end %>
     
 
-
+    <div class="well">
     <div class="form-group">
       <%= f.label :title %><br>
       <%= f.text_field :title, class: "form-control" %>
@@ -33,6 +38,6 @@
 
 
     <% end %>
-    <%= link_to 'Back', links_path %>
+  
   </div>
 </div>

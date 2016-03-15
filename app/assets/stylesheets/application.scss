@@ -18,18 +18,23 @@
 
 
 body {
-
-
+background: #629fd5
+/*
   background         : url(https://s3-us-west-2.amazonaws.com/alivetocode/jobbit.png)no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+*/
 }
 
 .glyphicon-arrow-left {
   color : #0084B4;
+}
+
+.blue {
+  background: #DFEBF6;
+  color: #629fd5
 }
 
 .well {
