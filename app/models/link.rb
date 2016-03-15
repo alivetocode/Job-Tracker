@@ -6,7 +6,7 @@ has_many :comments
 
 validates :title, 
 						presence: true, 
-						length: { in: 1..30 }
+						length: { in: 1..70 }
 
  validates :url,
             presence: { message: "- Website address is required" }, 
